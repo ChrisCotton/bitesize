@@ -9,7 +9,7 @@ environments:
         external_url: kubecon.dev-bite.io
         port: 80 # this is the port number the application responds on in each container/instance/pod
         ssl: "true"
-        replicas: 30
+        replicas: 2
     tests:
       - name: docs site tests
         repository: git@github.com:pearsontechnology/kubecon_docs_tests.git
