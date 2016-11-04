@@ -23,6 +23,11 @@ components:
     repository:
       git: git@github.com:pearsontechnology/kubecon_docs.git
       branch: master
+    env:
+      - name: GIT_USERNAME
+        value: kubecondemos@gmail.com
+      - name: GIT_PASSWORD
+        value: 21874b392e38ded25c91a3ecfba57ba384126087
     build:
       - shell: cat /dev/null > couscous.yml
       - shell: python docsgen.py
