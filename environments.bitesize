@@ -12,7 +12,7 @@ environments:
         replicas: 2
       - type: mysql
         name: kubeconrds
-        description: hello
+        description: "hello"
         version: 5.6
     tests:
       - name: docs site tests
