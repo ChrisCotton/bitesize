@@ -13,9 +13,9 @@ environments:
 #      - type: mysql
 #        name: kubeconrds
 #        version: 5.6
-#      - type: mongo
-#        name: pulsestgmongo
-#        version: 2.6
+      - type: mongo
+        name: pulsestgmongo
+        version: 2.6
     tests:
       - name: docs site tests
         repository: git@github.com:pearsontechnology/kubecon_docs_tests.git
