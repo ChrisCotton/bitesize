@@ -1,4 +1,4 @@
-project: docs-dev # aka namespace
+project: docs-dev
 applications:
   - name: docs-app
     runtime: ubuntu-httpdfcgi:1.3
