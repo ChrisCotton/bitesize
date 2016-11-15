@@ -16,9 +16,9 @@ environments:
       - type: mongo
         name: kubeconmongo
         version: 2.6
-    tests:
-      - name: docs site tests
-        repository: git@github.com:pearsontechnology/kubecon_docs_tests.git
-        branch: master
-        commands:
-          - shell: ./tests.sh
+#    tests:
+#      - name: docs site tests
+#        repository: git@github.com:pearsontechnology/kubecon_docs_tests.git
+#        branch: master
+#        commands:
+#          - shell: ./tests.sh
