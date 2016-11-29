@@ -1,4 +1,5 @@
 # see https://mycloud.atlassian.net/wiki/display/BITE/Jenkins
+
 project: docs-dev
 components:
   - name: docs-app
